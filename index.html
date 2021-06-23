@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Fylo</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="nav__container">
+        <nav class="nav">
+          <img src="assets/logo.svg" alt="logo" class="nav__logo" />
+          <input type="checkbox" id="hambur" />
+          <label for="hambur" class="label">
+            <div class="nav__hambur-menu">
+              <div class="hambur-bar-one"></div>
+              <div class="hambur-bar-two"></div>
+            </div>
+          </label>
+
+          <ul class="nav__list">
+            <li class="nav__item">Features</li>
+            <li class="nav__item">Pricing</li>
+            <li class="nav__item">Pricing</li>
+            <li class="nav__item">Login</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header">
+        <div class="header__text">
+          <h1 class="header__tittle">
+            All your files <span> accessible</span> anywhre
+          </h1>
+          <p>
+            Filo allows you to store all your file in one secure locaticon, and
+            access them wherever you nedd.
+          </p>
+
+          <button class="primary-btn--big">
+            <span> Get started </span>
+
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 36.1 25.8"
+              enable-background="new 0 0 36.1 25.8"
+              xml:space="preserve"
+            >
+              <g>
+                <line
+                  fill="none"
+                  stroke="#FFFFFF"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  x1="0"
+                  y1="12.9"
+                  x2="34"
+                  y2="12.9"
+                ></line>
+                <polyline
+                  fill="none"
+                  stroke="#FFFFFF"
+                  stroke-width="3"
+                  stroke-miterlimit="10"
+                  points="22.2,1.1 34,12.9 22.2,24.7   "
+                ></polyline>
+              </g>
+            </svg>
+          </button>
+        </div>
+
+        <div class="header__img">
+          <img src="assets/mainIllustration2.svg" alt="creative" />
+        </div>
+      </div>
+    </header>
+
+    <section class="features">
+      <h2 class="features__tittle">Features</h2>
+      <article class="features__card">
+        <img src="assets/files.svg" alt="files" class="features__img" />
+        <div class="features__text">
+          <h4>Access your files,anywhere</h4>
+          <p>
+            The ability to use a smartphone, tablet, or computer to access your
+            account means your files follow you everywhere
+          </p>
+        </div>
+      </article>
+      <article class="features__card">
+        <img src="assets/securty.svg" alt="security" class="features__img" />
+        <div class="features__text">
+          <h4>Security you can trust</h4>
+          <p>
+            2-factor authentication and user-controlled encryption are just a
+            couple of the security features we allow to help secure your files
+          </p>
+        </div>
+      </article>
+      <article class="features__card">
+        <img src="assets/people.svg" alt="people" class="features__img" />
+        <div class="features__text">
+          <h4>Real-time collaboration</h4>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="pricing">
+      <h2 class="pricing__tittle">Pricing</h2>
+      <div class="pricing__container">
+        <article class="pricing__card">
+          <p>Basic</p>
+          <h4>Free</h4>
+          <p class="pricing__subtittle">Up to 5 users for free</p>
+          <ul class="pricing__list">
+            <li class="pricing__item">Basic document collaboration</li>
+            <li class="pricing__item">2 GB storage</li>
+            <li class="pricing__item">Great security and support</li>
+          </ul>
+
+          <button class="primary-btn--small primary-btn--small--pricing">
+            Try for free
+          </button>
+        </article>
+        <article class="pricing__card">
+          <p>Pro</p>
+          <h4>$9.99</h4>
+          <p class="pricing__subtittle">Per user, billed monthly</p>
+          <ul class="pricing__list">
+            <li class="pricing__item">All essential integrations</li>
+            <li class="pricing__item">50 GB storage</li>
+            <li class="pricing__item">More control and insights</li>
+          </ul>
+          <button class="primary-btn--small primary-btn--small--pricing">
+            Try it now
+          </button>
+        </article>
+        <article class="pricing__card">
+          <p>Ultimated</p>
+          <h4>$16.99</h4>
+          <p class="pricing__subtittle">Per user, billed monthly</p>
+          <ul class="pricing__list">
+            <li class="pricing__item">Robust work, management</li>
+            <li class="pricing__item">100 GB storage</li>
+            <li class="pricing__item">VIP support</li>
+          </ul>
+
+          <button class="primary-btn--small primary-btn--small--pricing">
+            Try it now
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="funtionality">
+      <div class="funtionality__img">
+        <img src="assets/ship2.svg" alt="fireship" />
+      </div>
+      <div class="funtionality__text">
+        <h2>Stay productive, wherever you are.</h2>
+        <p>
+          Never let location be an issue when accessing your files. Securely
+          share files and folders with friends, family and colleagues for live
+          collaboration.
+        </p>
+        <button class="primary-btn--big">
+          <span> See how Fylo works</span>
+
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 36.1 25.8"
+            enable-background="new 0 0 36.1 25.8"
+            xml:space="preserve"
+          >
+            <g>
+              <line
+                fill="none"
+                stroke="#FFFFFF"
+                stroke-width="3"
+                stroke-miterlimit="10"
+                x1="0"
+                y1="12.9"
+                x2="34"
+                y2="12.9"
+              ></line>
+              <polyline
+                fill="none"
+                stroke="#FFFFFF"
+                stroke-width="3"
+                stroke-miterlimit="10"
+                points="22.2,1.1 34,12.9 22.2,24.7   "
+              ></polyline>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2 class="testimonials__tittle">What our clients are talking about</h2>
+
+      <div class="testimonials__container">
+        <article class="testimonials__card">
+          <div class="testimonials__img">
+            <img src="assets/logo.png" alt="bruce patel" />
+          </div>
+          <div class="testimonials__heading">
+            <h4>Bruce Patel</h4>
+            <p>CEO, huddle.</p>
+          </div>
+          <blockquote class="testimonials__blockquote">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.”
+          </blockquote>
+        </article>
+
+        <article class="testimonials__card">
+          <div class="testimonials__img">
+            <img src="assets/logo.png" alt="bruce patel" />
+          </div>
+          <div class="testimonials__heading">
+            <h4>Bruce Patel</h4>
+            <p>CEO, huddle.</p>
+          </div>
+          <blockquote class="testimonials__blockquote">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.”
+          </blockquote>
+        </article>
+
+        <article class="testimonials__card">
+          <div class="testimonials__img">
+            <img src="assets/logo.png" alt="bruce patel" />
+          </div>
+          <div class="testimonials__heading">
+            <h4>Bruce Patel</h4>
+            <p>CEO, huddle.</p>
+          </div>
+          <blockquote class="testimonials__blockquote">
+            Fylo has improved our team productivity by an order of magnitude.
+            Since making the switch our team has become a well-oiled
+            collaboration machine.”
+          </blockquote>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-ready">
+      <h2>You ready to start?</h2>
+      <div class="section-ready__btn-group">
+        <buttom class="primary-btn--big">Get started</buttom>
+        <buttom class="primary-btn--big primary-btn--big--outline"
+          >More info</buttom
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <img src="assets/logo.svg" alt="logo" class="footer__logo" />
+
+        <div class="footer__content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <ul>
+            <li>+1-543-123-4567</li>
+            <li>example@fylo.com</li>
+          </ul>
+          <ul>
+            <li>About us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blogs</li>
+          </ul>
+          <ul>
+            <li>Contact us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="personal__link">
+      developed by
+      <a
+        href="https://www.behance.net/luisv0301"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Luis Vasquez</a
+      >
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+@import "vars";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: $secondary-blue;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-gray;
+}
+
+p {
+  color: $secondary-gray;
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: 4.3rem;
+}
+
+h2 {
+  line-height: 1.1;
+  font-size: 3.3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  line-height: 1.2;
+  font-size: 2.4rem;
+}
+
+h1 + h4 {
+  margin-top: 1rem;
+}
+
+h4 + button,
+p {
+  margin-top: 1rem;
+}
