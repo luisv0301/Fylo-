@@ -7,9 +7,22 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      />
+    </noscript>
 
     <title>Fylo</title>
   </head>
@@ -91,7 +104,12 @@
     <section class="features">
       <h2 class="features__tittle">Features</h2>
       <article class="features__card">
-        <img src="assets/files.svg" alt="files" class="features__img" />
+        <img
+          src="assets/files.svg"
+          alt="files"
+          loading="lazy"
+          class="features__img"
+        />
         <div class="features__text">
           <h4>Access your files,anywhere</h4>
           <p>
@@ -101,7 +119,12 @@
         </div>
       </article>
       <article class="features__card">
-        <img src="assets/securty.svg" alt="security" class="features__img" />
+        <img
+          src="assets/securty.svg"
+          alt="security"
+          loading="lazy"
+          class="features__img"
+        />
         <div class="features__text">
           <h4>Security you can trust</h4>
           <p>
@@ -111,7 +134,12 @@
         </div>
       </article>
       <article class="features__card">
-        <img src="assets/people.svg" alt="people" class="features__img" />
+        <img
+          src="assets/people.svg"
+          alt="people"
+          loading="lazy"
+          class="features__img"
+        />
         <div class="features__text">
           <h4>Real-time collaboration</h4>
           <p>
@@ -171,7 +199,7 @@
 
     <section class="funtionality">
       <div class="funtionality__img">
-        <img src="assets/ship2png.png" alt="fireship" />
+        <img src="assets/ship2png.png" alt="fireship" loading="lazy" />
       </div>
       <div class="funtionality__text">
         <h2>Stay productive, wherever you are.</h2>
@@ -224,7 +252,7 @@
       <div class="testimonials__container">
         <article class="testimonials__card">
           <div class="testimonials__img">
-            <img src="assets/logo.png" alt="bruce patel" />
+            <img src="assets/logo.png" alt="bruce patel" loading="lazy" />
           </div>
           <div class="testimonials__heading">
             <h4>Bruce Patel</h4>
@@ -239,7 +267,7 @@
 
         <article class="testimonials__card">
           <div class="testimonials__img">
-            <img src="assets/logo.png" alt="bruce patel" />
+            <img src="assets/logo.png" alt="bruce patel" loading="lazy" />
           </div>
           <div class="testimonials__heading">
             <h4>Bruce Patel</h4>
@@ -254,7 +282,7 @@
 
         <article class="testimonials__card">
           <div class="testimonials__img">
-            <img src="assets/logo.png" alt="bruce patel" />
+            <img src="assets/logo.png" alt="bruce patel" loading="lazy" />
           </div>
           <div class="testimonials__heading">
             <h4>Bruce Patel</h4>
@@ -281,7 +309,12 @@
 
     <footer class="footer">
       <div class="footer__container">
-        <img src="assets/logo.svg" alt="logo" class="footer__logo" />
+        <img
+          src="assets/logo.svg"
+          alt="logo"
+          class="footer__logo"
+          loading="lazy"
+        />
 
         <div class="footer__content">
           <p>
