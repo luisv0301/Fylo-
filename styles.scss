@@ -74,9 +74,9 @@ html {
   &__item {
     margin-left: 3rem;
     padding: 0.4em;
-
     border-bottom: 3px solid transparent;
     cursor: pointer;
+    transition: border-bottom 250ms;
 
     &:hover {
       border-color: $primary-white;
@@ -220,7 +220,7 @@ html {
     width: 0;
     opacity: 0;
     transform: translateX(-36px);
-    transition: all 400ms ease-in-out;
+    transition: all 300ms ease-in-out;
   }
 
   &:hover {
@@ -232,7 +232,7 @@ html {
   @extend %primary-btn;
   border-radius: 10px;
   padding: 0.5em 1em;
-  transition: all 400ms ease-in-out;
+  transition: all 300ms ease-in-out;
 
   &--pricing {
     align-self: flex-end;
@@ -597,7 +597,7 @@ html {
 
 .section-ready {
   @extend %section-rounded-radius;
-  background-image: url("assets/Saly-12.svg");
+  background-image: url("assets/Saly-12.png");
   background-repeat: no-repeat;
   background-size: 50%;
   padding-top: 7rem;
@@ -609,6 +609,11 @@ html {
   @include medium() {
     background-position: center top;
     background-size: 90%;
+  }
+
+  h2 {
+    text-align: center;
+    text-shadow: 1px 1px 7px #ffffff94;
   }
 
   &__btn-group {
