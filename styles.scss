@@ -168,8 +168,13 @@ html {
         height: 7rem;
         background-color: #ed5a76;
         border-radius: 50%;
-        bottom: -24px;
-        left: -9px;
+        bottom: -1.5rem;
+        left: -0.6rem;
+
+        @include small {
+          bottom: -1.5rem;
+          left: -10.6rem;
+        }
       }
     }
   }
@@ -428,13 +433,18 @@ html {
 
 // FUNTIONALITY SECTION //
 
-.funtionality {
+.functionality {
   @extend %section-rounded-radius;
-  display: grid;
-  grid-template-columns: 1fr 0.8fr;
 
-  @include medium() {
-    grid-template-columns: auto;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    max-width: 1200px;
+    margin-inline: auto;
+
+    @include medium() {
+      grid-template-columns: auto;
+    }
   }
 
   &__img {
@@ -599,7 +609,8 @@ html {
   @extend %section-rounded-radius;
   background-image: url("assets/Saly-12.png");
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 64%;
+  background-position: center top;
   padding-top: 7rem;
   padding-bottom: 7rem;
   display: grid;
@@ -607,7 +618,6 @@ html {
   border-bottom-right-radius: 0;
 
   @include medium() {
-    background-position: center top;
     background-size: 90%;
   }
 
